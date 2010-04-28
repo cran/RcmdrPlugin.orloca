@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RcmdrPlugin.orloca\n"
+"Report-Msgid-Bugs-To: manuel.munoz@uca.es\n"
+"POT-Creation-Date: 2010-04-28 17:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:36
+msgid "New loca.p"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:68
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:148
+msgid "Name of new loca.p object"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:78
+msgid "New loca.p Random Instance"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:110
+msgid "The number of demand points must be a positive integer."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:115
+msgid "xmin must be a real number."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:120
+msgid "xmax must be a real number bigger that xmin."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:125
+msgid "ymin must be a real number."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:130
+msgid "ymax must be a real number bigger that ymin."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:135
+msgid "groups must be a positive integer."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:149
+msgid "Number of demand points"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:150
+msgid "x Minimum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:151
+msgid "x Maximum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:152
+msgid "y Minimum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:153
+msgid "y Maximum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:154
+msgid "Number of groups"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:168
+msgid "Evaluation of Objective Function for weighted sum Location Problem"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:177
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:223
+msgid "x-axis must be a number."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:182
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:228
+msgid "y-axis must be a number."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:188
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:247
+msgid "Weighted sum of distances"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:193
+msgid "Gradient of the weighted sum of distances function"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:207
+msgid "Solve weighted sum Location Problem"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:216
+msgid "Algorithm"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:233
+msgid "The maximum number of iterations must be a positive integer"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:238
+msgid "The norm of the gradient must be positive."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:242
+msgid "Solve the minsum location problem"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:244
+msgid "Show the solution"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:269
+msgid "Help about orloca"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:270
+msgid "orloca"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:278
+msgid "Help about RcmdrPlugin.orloca"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:279
+msgid "RcmdrPlugin.orloca"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:287
+msgid "Summary"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:307
+msgid "Show/Set norm"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:314
+msgid "Selection of the norm"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:315
+msgid "Select the norm"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:332
+msgid "is not a valid l_p norm."
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:338
+msgid "p = "
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:5
+msgid "Graphics"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:6
+msgid "Demands Points Plot"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:7
+msgid "Plot of demand points in"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:14
+msgid "Contour Plot of sum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:15
+msgid "Contour Level plot of min-sum objective for"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:18
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:31
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:43
+msgid "Norm"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:27
+msgid "3D Plot of sum"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:28
+msgid "3D plot of min-sum objective for"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:39
+msgid "Demand & Contour Plot"
+msgstr ""
+
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.fg.R:40
+msgid "Plot of demand points and contour plot of"
+msgstr ""

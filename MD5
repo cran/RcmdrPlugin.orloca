@@ -1,0 +1,11 @@
+b790bc8a2a4963b8829159946305a5b4 *DESCRIPTION
+813cc422bb8b7b70cb665f892295b0ec *NAMESPACE
+12f453c8af5dd80c3c9f6327028869b4 *R/RcmdrPlugin.Orloca.R
+903482fe5e49a27ae926cba095e3818c *R/RcmdrPlugin.Orloca.fg.R
+62d8d93a5c4331e2d511be18f3d52c1a *inst/etc/menus.txt
+a7ce7a73f949e009b44f49edeff234c0 *inst/po/es/LC_MESSAGES/R-RcmdrPlugin.orloca.mo
+f86a774d0e5df799db784555233ec2b2 *man/RcmdrPlugin.orloca-internal.Rd
+aa971ddf161b770193de2fdcbe667f90 *man/RcmdrPlugin.orloca-package.Rd
+82a4e0ff1ef8dd70ce29be83e880f618 *man/RcmdrPlugin.orloca.es-package.Rd
+1ec60be5caa736d8217c585c80ac1cc7 *po/R-RcmdrPlugin.orloca-es.po
+2395e3dd76aed8bde0280f23e4770714 *po/R-RcmdrPlugin.orloca.pot
