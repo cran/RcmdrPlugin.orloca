@@ -8,159 +8,160 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RcmdrPlugin.orloca\n"
 "Report-Msgid-Bugs-To: manuel.munoz@uca.es\n"
-"POT-Creation-Date: 2010-04-28 17:45+0200\n"
+"POT-Creation-Date: 2012-12-26 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:36
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:34
 msgid "New loca.p"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:68
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:148
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:66
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:146
 msgid "Name of new loca.p object"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:78
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:76
 msgid "New loca.p Random Instance"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:110
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:108
 msgid "The number of demand points must be a positive integer."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:115
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:113
 msgid "xmin must be a real number."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:120
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:118
 msgid "xmax must be a real number bigger that xmin."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:125
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:123
 msgid "ymin must be a real number."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:130
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:128
 msgid "ymax must be a real number bigger that ymin."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:135
-msgid "groups must be a positive integer."
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:133
+msgid "groups must be a non negative integer."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:149
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:147
 msgid "Number of demand points"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:150
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:148
 msgid "x Minimum"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:151
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:149
 msgid "x Maximum"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:152
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:150
 msgid "y Minimum"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:153
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:151
 msgid "y Maximum"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:154
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:152
 msgid "Number of groups"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:168
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:166
 msgid "Evaluation of Objective Function for weighted sum Location Problem"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:177
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:223
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:175
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:221
 msgid "x-axis must be a number."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:182
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:228
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:180
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:226
 msgid "y-axis must be a number."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:188
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:247
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:186
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:246
 msgid "Weighted sum of distances"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:193
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:191
 msgid "Gradient of the weighted sum of distances function"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:207
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:205
 msgid "Solve weighted sum Location Problem"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:216
-msgid "Algorithm"
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:214
+msgid "Select algorithm"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:233
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:231
 msgid "The maximum number of iterations must be a positive integer"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:238
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:236
 msgid "The norm of the gradient must be positive."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:242
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:241
 msgid "Solve the minsum location problem"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:244
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:243
 msgid "Show the solution"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:269
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:271
 msgid "Help about orloca"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:270
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:272
 msgid "orloca"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:278
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:280
 msgid "Help about RcmdrPlugin.orloca"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:279
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:281
 msgid "RcmdrPlugin.orloca"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:287
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:289
 msgid "Summary"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:307
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:309
 msgid "Show/Set norm"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:314
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:322
 msgid "Selection of the norm"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:315
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:323
 msgid "Select the norm"
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:332
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:340
 msgid "is not a valid l_p norm."
 msgstr ""
 
-#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:338
+#: RcmdrPlugin.orloca/R/RcmdrPlugin.Orloca.R:346
 msgid "p = "
 msgstr ""
 

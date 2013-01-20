@@ -31,9 +31,9 @@ por el paquete \code{orloca} no \enc{están}{estan} disponibles en la interfaz \
 \tabular{ll}{
 Paquete: \tab RcmdrPlugin.orloca\cr
 Tipo: \tab Paquete\cr
-Version: \tab 2.1-0\cr
-Fecha: \tab 2010-04-28\cr
-Licencia: \tab GPL (>= 2)\cr
+Version: \tab 4.1-0\cr
+Fecha: \tab 2013-01-20\cr
+Licencia: \tab GPL (>= 3)\cr
 }
 }
 
