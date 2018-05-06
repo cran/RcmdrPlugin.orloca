@@ -11,7 +11,7 @@ Rcmdr.plot.loca.p <- function(){
 
 Rcmdr.contour.zsum <- function(){
    # To ensure that menu name is included in pot file
-   gettext("Contour Plot of sum", domain="R-RcmdrPlugin.orloca")
+   gettext("Contour Plot of zsum", domain="R-RcmdrPlugin.orloca")
    command <- paste("contour(as(", ActiveDataSet(), ", \"loca.p\"), main=\"", gettext("Contour Level plot of min-sum objective for", domain="R-RcmdrPlugin.orloca"), " ", ActiveDataSet(), sep="")
    norma <- .RcmdrPlugin.orloca.get.norma(sep="")
    if (norma!="")
@@ -24,7 +24,7 @@ Rcmdr.contour.zsum <- function(){
 
 Rcmdr.persp.zsum <- function(){
    # To ensure that menu name is included in pot file
-   gettext("3D Plot of sum", domain="R-RcmdrPlugin.orloca")
+   gettext("3D Plot of zsum", domain="R-RcmdrPlugin.orloca")
    command <- paste("persp(as(", ActiveDataSet(), ", \"loca.p\"), main=\"", gettext("3D plot of min-sum objective for", domain="R-RcmdrPlugin.orloca"), " ", ActiveDataSet(), sep="")
    norma <- .RcmdrPlugin.orloca.get.norma(sep="")
    if (norma!="")

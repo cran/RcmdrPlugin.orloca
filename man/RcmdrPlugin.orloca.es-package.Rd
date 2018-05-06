@@ -1,13 +1,14 @@
 \name{RcmdrPlugin.orloca.es}
-\title{RcmdrPlugin.orloca.es: Una interfaz grafica para el paquete orloca}
+\title{Una interfaz grafica para localizacion en el plano}
 \alias{RcmdrPlugin.orloca.es}
 \docType{package}
 \encoding{UTF-8}
 
 \description{
 Este paquete proporciona una interfaz \enc{gráfica}{grafica} de usuario
-para el paquete orloca. Es un \enc{añadido}{anadido} para Rcmdr
-(R-Commander).
+para el paquete orloca como un \enc{añadido}{anadido} para Rcmdr
+(R-Commander). El paquete trata sobre los problemas de \enc{localización}{localizacion} en
+el plano.
 
 Para poder utilizar toda la potencia de la interfaz Rcmdr, los datos de
 los problemas de \enc{localización}{localizacion} se almacenan como objetos
@@ -31,15 +32,14 @@ por el paquete \code{orloca} no \enc{están}{estan} disponibles en la interfaz \
 \tabular{ll}{
 Paquete: \tab RcmdrPlugin.orloca\cr
 Tipo: \tab Paquete\cr
-Version: \tab 4.1-0\cr
-Fecha: \tab 2013-01-20\cr
+Version: \tab 4.5-0\cr
+Fecha: \tab 2018-05-06\cr
 Licencia: \tab GPL (>= 3)\cr
 }
 }
 
 \author{
-Fernando \enc{Fernández-Palacín}{Fernandez-Palacin} <fernando.fernandez@uca.es> y Manuel
-\enc{Muñoz-Márquez}{Munoz-Marquez} <manuel.munoz@uca.es>
+Manuel \enc{Muñoz-Márquez}{Munoz-Marquez} <manuel.munoz@uca.es>
 
 Mantenedor: Manuel \enc{Muñoz-Márquez}{Munoz-Marquez} <manuel.munoz@uca.es>
 }
