@@ -83,8 +83,8 @@ You can create random objects of class `loca.p` using the options "Orloca" -> "N
 Changing the dialog fields as shown in the figure, a new object `loca.p` of name `loca2` is generated with 100 demand points with both coordinates between 0 and 100 and with three groups.
 After clicking on OK in the instructions window you get:
 ```{r}
-loca2 <- rloca.p (n = 100, xmin = 0, xmax = 10, ymin = 0, ymax = 10, groups = 3)
-loca2 <- as (loca2, "data.frame")
+loca2 <- rloca.p(n = 100, xmin = 0, xmax = 10, ymin = 0, ymax = 10, groups = 3)
+loca2 <- as(loca2, "data.frame")
 ```
 The new active data set becomes `loca2` and can be viewed using the "Display data set" button.
 
@@ -95,7 +95,7 @@ The summary shows the minimum, maximum and average values of both coordinates, i
 
 By previously activating the data set `loca1` and selecting "Orloca" -> "Summary", you get:
 ```{r}
-summary (loca1)
+summary(loca1)
 ```
 
 # Weighted average distance
@@ -105,15 +105,15 @@ Likewise, the gradient of said function can be evaluated and the problem of mini
 
 ## Evaluation
 
-The weighted average distance function is called `zsum` in the package.
+The weighted average distance function is called `distsum` in the package.
 Given a point, for example: $(3, 1)$ to evaluate the weighted average distance to `loca1`, chose from the menu "Orloca" -> "Evaluation of the Objective Function of the weighted sum Location Problem" and the dialog is obtained:
 
-![Dialog "Evaluation of the Objective Function of the weighted sum Location Problem"](img/dialog.zsum.png)
+![Dialog "Evaluation of the Objective Function of the weighted sum Location Problem"](img/dialog.distsum.png)
 
 By entering the values shown you get:
 ```{r}
-zsum (as (loca1, "loca.p"), x = 3, y = 1) # Weighted sum of the distances
-zsumgra (as (loca1, "loca.p"), x = 3, y = 1) # Gradient of the weighted sum function of the distances
+distsum(as(loca1, "loca.p"), x = 3, y = 1) # Weighted sum of the distances
+distsumgra(as(loca1, "loca.p"), x = 3, y = 1) # Gradient of the weighted sum function of the distances
 ```
 
 Note that the gradient at that point of the objective function has also been obtained.
@@ -126,10 +126,10 @@ To find the optimal solution to the previous location problem, select "Orloca" -
 
 And clicking on "OK" you get:
 ```{r}
-.sol <- zsummin (as (loca1, "loca.p"), x = 0, y = 0, eps = 0.001, algorithm = "w") # Solve the location problem minsum
+.sol <- distsummin(as(loca1, "loca.p"), x = 0, y = 0, eps = 0.001, algorithm = "Weiszfeld") # Solve the location problem minsum
 .sol # Show the solution
-zsum (as (loca1, "loca.p"), x = 2.00000022259505, y = 1.15332010901434) # Weighted sum of the distances
-remove (.sol)
+distsum(as(loca1, "loca.p"), x = 2.00000022259505, y = 1.15332010901434) # Weighted sum of the distances
+remove(.sol)
 ```
 
 Where it is shown that the solution is the point $(2, 1.15)$, the function is evaluated in it, resulting in a value of $5.46$ and a virtually zero gradient, which indicates that the point is an extreme point. The solution found is a local optimum and since the convex objective function is a global optimum.
@@ -150,7 +150,7 @@ plot(as(loca1, "loca.p"), main = "Graph of the set of points loca1")
 
 ## Graph of contour lines
 
-The graph of contours is done by choosing "Orloca" -> "Graphs" -> "Graph of contours of zsum", obtaining:
+The graph of contours is done by choosing "Orloca" -> "Graphs" -> "Graph of contours of distsum", obtaining:
 
 ```{r}
 contour(as(loca1, "loca.p"), main = "Graph of the contours of the objective function for loca1")
@@ -160,13 +160,13 @@ In the graph you can see how the function reaches the minimum at the point previ
 Selecting "Orloca" -> "Graphs" -> "Demand graphs and contour lines" you get the two previous graphs superimposed:
 
 ```{r}
-plot(as(loca1, "loca.p"), main = "Graph of the set of demand points and level curves for loca1")
+plot(as(loca1, "loca.p"), main = "Demand points and level curves for loca1")
 contour(as(loca1, "loca.p"), add = T)
 ```
 
 ## Graph in 3D
 
-A three-dimensional representation can be made by selecting the options "Orloca" -> "Graphics" -> "3D graph of zsum", obtaining:
+A three-dimensional representation can be made by selecting the options "Orloca" -> "Graphics" -> "3D graph of distsum", obtaining:
 
 ```{r}
 persp(as(loca1, "loca.p"), main = "3D graph of the objective function min-sum for loca1")
@@ -187,7 +187,7 @@ All calculations and graphs will be made using this norm until a new value is sp
 The new contour graph is:
 
 ```{r}
-contour(as(loca1, "loca.p"), main = "Graph of the level curves of the objective function for loca1 \ n (Standard lp = 2.5)", lp = 2.5)
+contour(as(loca1, "loca.p"), main = "Graph of the level curves of the objective function for loca1 \n (Standard lp = 2.5)", lp = 2.5)
 ```
 
 # The help menu

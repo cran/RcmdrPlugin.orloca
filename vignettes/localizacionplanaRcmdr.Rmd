@@ -110,15 +110,15 @@ Así mismo, se puede evaluar el gradiente de dicha función y se puede resolver 
 
 ## Evaluación
 
-La función distancia media ponderada se denomina en el paquete `zsum`. 
+La función distancia media ponderada se denomina en el paquete `distsum`. 
 Dado un punto, por ejemplo: $(3, 1)$ para evaluar la distancia media ponderada a `loca1` se elige "Orloca" -> "Evaluación de la función objetivo del problema de localización de suma ponderada" y se obtiene el diálogo:
 
-![Diálogo "Evaluación de la función objetivo del problema de suma ponderada"](img/dialogo.zsum.png)
+![Diálogo "Evaluación de la función objetivo del problema de suma ponderada"](img/dialogo.distsum.png)
 
 Introduciendo los valores mostrados se obtiene:
 ```{r}
-zsum(as(loca1, "loca.p") , x = 3, y = 1) # Suma ponderada de las distancias
-zsumgra(as(loca1, "loca.p") , x = 3, y = 1) # Gradiente de la función suma ponderada de las distancias
+distsum(as(loca1, "loca.p") , x = 3, y = 1) # Suma ponderada de las distancias
+distsumgra(as(loca1, "loca.p") , x = 3, y = 1) # Gradiente de la función suma ponderada de las distancias
 ```
 
 Obsérvese que también se ha obtenido el gradiente en dicho punto de la función objetivo.
@@ -131,9 +131,9 @@ Para encontrar la solución óptima al problema de localización anterior se sel
 
 Y pulsando en "Aceptar" se obtiene:
 ```{r}
-.sol <- zsummin(as(loca1, "loca.p") , x = 0, y = 0, eps =0.001, algorithm ="w" ) # Resolver el problema de localización minsum
+.sol <- distsummin(as(loca1, "loca.p") , x = 0, y = 0, eps =0.001, algorithm ="Weiszfeld" ) # Resolver el problema de localización minsum
 .sol # Muestra la solución
-zsum(as( loca1 , "loca.p") , x = 2.00000022259505 , y =  1.15332010901434 ) # Suma ponderada de las distancias
+distsum(as( loca1 , "loca.p") , x = 2.00000022259505 , y =  1.15332010901434 ) # Suma ponderada de las distancias
 remove(.sol)
 ```
 
@@ -155,7 +155,7 @@ plot(as(loca1, "loca.p"), main= "Gráfica del conjunto de puntos loca1")
 
 ## Gráfico de curvas de nivel
 
-El gráfico de curvas de nivel se realiza eligiendo "Orloca" -> "Gráficos" -> "Gráfica de curvas de nivel de zsum", obteniéndose:
+El gráfico de curvas de nivel se realiza eligiendo "Orloca" -> "Gráficos" -> "Gráfica de curvas de nivel de distsum", obteniéndose:
 ```{r}
 contour(as(loca1, "loca.p"), main="Gráfica de las curvas de nivel de la función objetivo para loca1")
 ```
@@ -164,13 +164,13 @@ En el gráfico se puede observar como la función alcanza el mínimo en el punto
 
 Seleccionando "Orloca" -> "Gráficos" -> "Gráficas de demanda y curvas de nivel" se obtienen los dos gráficos anteriores superpuestos:
 ```{r}
-plot(as(loca1, "loca.p"), main= "Gráfica del conjunto de puntos de demanda y las curvas de nivel para loca1")
+plot(as(loca1, "loca.p"), main= "Puntos de demanda y las curvas de nivel para loca1")
 contour(as(loca1,"loca.p"), add=T)
 ```
 
 ## Gráfico en 3D
 
-Análogamente se puede realizar una representación en tres dimensiones seleccionando las opciones "Orloca" -> "Gráficos" -> "Gráfica 3D de zsum", obteniéndose:
+Análogamente se puede realizar una representación en tres dimensiones seleccionando las opciones "Orloca" -> "Gráficos" -> "Gráfica 3D de distsum", obteniéndose:
 ```{r}
 persp(as(loca1, "loca.p"), main="Gráfica 3D de la función objetivo min-sum para loca1")
 ```

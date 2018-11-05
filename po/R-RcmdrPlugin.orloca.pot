@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RcmdrPlugin.orloca 4.5\n"
 "Report-Msgid-Bugs-To: manuel.munoz@uca.es\n"
-"POT-Creation-Date: 2018-07-06 20:11+0200\n"
+"POT-Creation-Date: 2018-10-28 21:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,10 +122,22 @@ msgstr ""
 msgid "orloca"
 msgstr ""
 
+msgid "Planar Location with orloca"
+msgstr ""
+
+msgid "planarlocation"
+msgstr ""
+
 msgid "Help about RcmdrPlugin.orloca"
 msgstr ""
 
 msgid "RcmdrPlugin.orloca"
+msgstr ""
+
+msgid "Planar Location with Rcmdr"
+msgstr ""
+
+msgid "planarlocationRcmdr"
 msgstr ""
 
 msgid "Summary"
@@ -155,7 +167,7 @@ msgstr ""
 msgid "Plot of demand points in"
 msgstr ""
 
-msgid "Contour Plot of zsum"
+msgid "Contour Plot of distsum"
 msgstr ""
 
 msgid "Contour Level plot of min-sum objective for"
@@ -164,7 +176,7 @@ msgstr ""
 msgid "Norm"
 msgstr ""
 
-msgid "3D Plot of zsum"
+msgid "3D Plot of distsum"
 msgstr ""
 
 msgid "3D plot of min-sum objective for"
